@@ -1,0 +1,342 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cherry Lady — студия маникюра и педикюра</title>
+<meta name="description" content="Маникюр, педикюр и дизайн в Калининграде. Соберите свой дизайн онлайн и запишитесь к мастеру.">
+<meta name="theme-color" content="#F4EDE7">
+<script>document.documentElement.classList.add("js")</script>
+<link rel="preload" href="assets/fonts/cormorant-cyrillic-300-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/onest-cyrillic-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath d='M16 4c3 4 4 7 3 11' stroke='%232E3F32' stroke-width='2' fill='none'/%3E%3Ccircle cx='11' cy='21' r='7' fill='%23A3253A'/%3E%3Ccircle cx='22' cy='20' r='6' fill='%23A3253A'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<div class="loader" aria-hidden="true">
+  <div class="loader__ring">
+    <i style="--a:0deg;--c:#A3253A"></i><i style="--a:51deg;--c:#EBC3C8"></i><i style="--a:103deg;--c:#A3B18A"></i>
+    <i style="--a:154deg;--c:#C9C97E"></i><i style="--a:206deg;--c:#6E2B3A"></i><i style="--a:257deg;--c:#F1E6DA"></i><i style="--a:309deg;--c:#2E3F32"></i>
+  </div>
+  <p class="loader__text">Красим…</p>
+</div>
+
+<header class="top">
+  <a class="logo" href="#top" aria-label="Cherry Lady, на главную">
+    <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3c2.6 4 3.6 7.4 2.8 11.5M16 3c-2 3.4-5 6.3-6.4 11" stroke="currentColor" stroke-width="1.4" fill="none"/><circle cx="10" cy="20.5" r="6.5" fill="var(--cherry)"/><circle cx="21.5" cy="19.5" r="6" fill="var(--cherry)"/></svg>
+    <span>Cherry Lady</span>
+  </a>
+  <nav class="nav" id="nav" aria-label="Разделы">
+    <a href="#services">Услуги</a>
+    <a href="#studio">Конструктор</a>
+    <a href="#works">Работы</a>
+    <a href="#masters">Мастера</a>
+    <a href="#book" class="nav__cta">Записаться</a>
+  </nav>
+  <a href="#book" class="btn btn--sm top__cta">Записаться</a>
+  <button class="burger" aria-label="Открыть меню" aria-expanded="false" aria-controls="nav"><span></span><span></span></button>
+</header>
+
+<main id="top">
+
+<section class="hero">
+  <div class="hero__text">
+    <p class="eyebrow" data-load style="--d:.15s">Студия маникюра и педикюра в Калининграде</p>
+    <h1 class="hero__title">
+      <span class="ln"><span style="--i:0">Маникюр,</span></span>
+      <span class="ln"><span style="--i:1">после которого</span></span>
+      <span class="ln"><span style="--i:2"><em>хочется гулять</em></span></span>
+    </h1>
+    <p class="hero__lead" data-load style="--d:.65s">Покрытие держится до трёх недель. Подберите оттенок и дизайн прямо здесь — мастер увидит его в заявке.</p>
+    <div class="hero__actions" data-load style="--d:.8s">
+      <a href="#book" class="btn magnet">Записаться</a>
+      <a href="#studio" class="btn btn--ghost">Собрать свой дизайн</a>
+    </div>
+    <ul class="hero__facts" data-load style="--d:.95s">
+      <li><b>Ежедневно</b> 10:00–21:00</li>
+      <li><b>Ленинский проспект</b>, 1</li>
+    </ul>
+  </div>
+
+  <div class="hero__art">
+    <figure class="arch"><img src="assets/img/hero-cherries.webp" alt="Рука с вишнёвым маникюром держит две вишни" width="1122" height="1402" fetchpriority="high"></figure>
+    <img class="hero__tile" src="assets/img/tile-cherry.webp" alt="" width="640" height="640">
+  </div>
+</section>
+
+
+<section class="section services" id="services">
+  <div class="section__head">
+    <h2 data-split>Услуги и цены</h2>
+    <p>Нажмите на плитку, чтобы увидеть, что входит и сколько стоит.</p>
+  </div>
+  <div class="tiles" data-stagger>
+    <details class="tile" style="--i:0;--tile:#EBC3C8">
+      <summary>
+        <img class="tile__img" src="assets/img/tile-cherry.webp" alt="" width="640" height="640" loading="lazy">
+        <span class="tile__text"><span class="tile__name">Маникюр с покрытием</span><span class="tile__price">от 2 300 ₽</span></span>
+      </summary>
+      <div class="tile__body"><ul class="price">
+        <li><span>Маникюр + однотонное покрытие</span><b>2 300 ₽</b></li>
+        <li><span>Маникюр + укрепление и покрытие</span><b>2 700 ₽</b></li>
+        <li><span>Френч или градиент</span><b>+ 400 ₽</b></li>
+        <li><span>Время</span><b>1,5–2 часа</b></li>
+      </ul></div>
+    </details>
+    <details class="tile" style="--i:1;--tile:#A3B18A">
+      <summary>
+        <img class="tile__img" src="assets/img/tile-flower.webp" alt="" width="640" height="640" loading="lazy">
+        <span class="tile__text"><span class="tile__name">Педикюр</span><span class="tile__price">от 2 600 ₽</span></span>
+      </summary>
+      <div class="tile__body"><ul class="price">
+        <li><span>Педикюр пальчики + покрытие</span><b>2 600 ₽</b></li>
+        <li><span>Полный педикюр + покрытие</span><b>3 200 ₽</b></li>
+        <li><span>Педикюр без покрытия</span><b>2 000 ₽</b></li>
+        <li><span>Время</span><b>1,5–2 часа</b></li>
+      </ul></div>
+    </details>
+    <details class="tile" style="--i:2;--tile:#F1E6DA">
+      <summary>
+        <img class="tile__img" src="assets/img/tile-star.webp" alt="" width="640" height="640" loading="lazy">
+        <span class="tile__text"><span class="tile__name">Дизайн</span><span class="tile__price">от 100 ₽ за ноготь</span></span>
+      </summary>
+      <div class="tile__body"><ul class="price">
+        <li><span>Точки, полоски, стразы</span><b>100 ₽ / ноготь</b></li>
+        <li><span>Рисунок, цветы, слюда</span><b>250 ₽ / ноготь</b></li>
+        <li><span>Хром, кошачий глаз</span><b>400 ₽ / все</b></li>
+        <li><span>Объёмный дизайн</span><b>300 ₽ / ноготь</b></li>
+      </ul></div>
+    </details>
+    <details class="tile" style="--i:3;--tile:#C9C97E">
+      <summary>
+        <img class="tile__img" src="assets/img/tile-shell.webp" alt="" width="640" height="640" loading="lazy">
+        <span class="tile__text"><span class="tile__name">Наращивание</span><span class="tile__price">от 3 500 ₽</span></span>
+      </summary>
+      <div class="tile__body"><ul class="price">
+        <li><span>Наращивание до 2-й длины</span><b>3 500 ₽</b></li>
+        <li><span>Коррекция наращивания</span><b>2 900 ₽</b></li>
+        <li><span>Ремонт одного ногтя</span><b>200 ₽</b></li>
+        <li><span>Время</span><b>2,5–3 часа</b></li>
+      </ul></div>
+    </details>
+    <details class="tile" style="--i:4;--tile:#E8D3D0">
+      <summary>
+        <img class="tile__img" src="assets/img/tile-knot.webp" alt="" width="640" height="640" loading="lazy">
+        <span class="tile__text"><span class="tile__name">Снятие и уход</span><span class="tile__price">от 500 ₽</span></span>
+      </summary>
+      <div class="tile__body"><ul class="price">
+        <li><span>Снятие покрытия</span><b>500 ₽</b></li>
+        <li><span>Парафин для рук</span><b>700 ₽</b></li>
+        <li><span>Маникюр без покрытия</span><b>1 300 ₽</b></li>
+        <li><span>Укрепление ногтей</span><b>600 ₽</b></li>
+      </ul></div>
+    </details>
+    <details class="tile" style="--i:5;--tile:#B9C4A3">
+      <summary>
+        <img class="tile__img" src="assets/img/tile-strawberry.webp" alt="" width="640" height="640" loading="lazy">
+        <span class="tile__text"><span class="tile__name">Вдвоём</span><span class="tile__price">маникюр в 4 руки</span></span>
+      </summary>
+      <div class="tile__body"><ul class="price">
+        <li><span>Маникюр + педикюр одновременно</span><b>4 600 ₽</b></li>
+        <li><span>С подругой в соседних креслах</span><b>−10%</b></li>
+        <li><span>Чай, кофе, морс</span><b>в подарок</b></li>
+        <li><span>Время</span><b>около 2 часов</b></li>
+      </ul></div>
+    </details>
+  </div>
+</section>
+
+<section class="section studio" id="studio">
+  <div class="section__head">
+    <h2 data-split>Соберите свой маникюр</h2>
+    <p>Нажмите на ногти, затем выберите оттенок и детали — так можно сделать акцентный ноготь другого цвета. Дизайн попадёт в заявку.</p>
+  </div>
+  <div class="studio__grid">
+    <div class="studio__stage">
+      <div class="layers" aria-hidden="true"></div>
+      <div class="hand-wrap">
+        <div class="hand" role="group" aria-label="Ногти: нажмите, чтобы выбрать">
+          <img class="hand__img" src="assets/img/hand.webp" alt="Рука с ногтями миндалевидной формы" width="1122" height="1402" loading="lazy">
+          <button class="nail is-sel" data-f="Большой" aria-pressed="true" aria-label="Большой палец" style="left:75.223%;top:48.787%;width:8.913%;height:8.916%;--bx:16.0%;--by:92.8%;--nw:64.0%;--nl:104.95%;--ang:33.8deg">
+            <span class="nail__paint" style="-webkit-mask-image:url(assets/img/nail-thumb-shade.png);mask-image:url(assets/img/nail-thumb-shade.png)"><span class="nail__color"></span><img class="nail__shade" src="assets/img/nail-thumb-shade.png" alt=""><span class="nail__frame"><span class="nail__deco"></span></span><img class="nail__gloss" src="assets/img/nail-thumb-gloss.png" alt=""></span>
+          </button>
+          <button class="nail is-sel" data-f="Указательный" aria-pressed="true" aria-label="Указательный палец" style="left:67.647%;top:16.191%;width:7.13%;height:9.201%;--bx:42.5%;--by:95.35%;--nw:85.0%;--nl:92.21%;--ang:7.2deg">
+            <span class="nail__paint" style="-webkit-mask-image:url(assets/img/nail-index-shade.png);mask-image:url(assets/img/nail-index-shade.png)"><span class="nail__color"></span><img class="nail__shade" src="assets/img/nail-index-shade.png" alt=""><span class="nail__frame"><span class="nail__deco"></span></span><img class="nail__gloss" src="assets/img/nail-index-gloss.png" alt=""></span>
+          </button>
+          <button class="nail is-sel" data-f="Средний" aria-pressed="true" aria-label="Средний палец" style="left:57.041%;top:7.703%;width:7.487%;height:9.843%;--bx:41.67%;--by:95.65%;--nw:85.71%;--nl:92.76%;--ang:7.2deg">
+            <span class="nail__paint" style="-webkit-mask-image:url(assets/img/nail-middle-shade.png);mask-image:url(assets/img/nail-middle-shade.png)"><span class="nail__color"></span><img class="nail__shade" src="assets/img/nail-middle-shade.png" alt=""><span class="nail__frame"><span class="nail__deco"></span></span><img class="nail__gloss" src="assets/img/nail-middle-gloss.png" alt=""></span>
+          </button>
+          <button class="nail is-sel" data-f="Безымянный" aria-pressed="true" aria-label="Безымянный палец" style="left:45.722%;top:11.484%;width:7.308%;height:9.772%;--bx:36.59%;--by:95.62%;--nw:82.93%;--nl:93.91%;--ang:11.7deg">
+            <span class="nail__paint" style="-webkit-mask-image:url(assets/img/nail-ring-shade.png);mask-image:url(assets/img/nail-ring-shade.png)"><span class="nail__color"></span><img class="nail__shade" src="assets/img/nail-ring-shade.png" alt=""><span class="nail__frame"><span class="nail__deco"></span></span><img class="nail__gloss" src="assets/img/nail-ring-gloss.png" alt=""></span>
+          </button>
+          <button class="nail is-sel" data-f="Мизинец" aria-pressed="true" aria-label="Мизинец палец" style="left:28.164%;top:24.037%;width:6.15%;height:7.846%;--bx:46.38%;--by:94.55%;--nw:82.61%;--nl:90.17%;--ang:3.5deg">
+            <span class="nail__paint" style="-webkit-mask-image:url(assets/img/nail-pinky-shade.png);mask-image:url(assets/img/nail-pinky-shade.png)"><span class="nail__color"></span><img class="nail__shade" src="assets/img/nail-pinky-shade.png" alt=""><span class="nail__frame"><span class="nail__deco"></span></span><img class="nail__gloss" src="assets/img/nail-pinky-gloss.png" alt=""></span>
+          </button>
+        </div>
+      </div>
+      <div class="studio__quick">
+        <button class="chip" data-pick="all">Все ногти</button>
+        <button class="chip" data-pick="accent">Только безымянный</button>
+      </div>
+    </div>
+    <div class="studio__panel">
+      <p class="panel__label">Оттенок</p>
+      <div class="swatches" role="radiogroup" aria-label="Оттенок">
+        <button class="swatch" role="radio" aria-checked="true" data-name="Вишня в глазури" style="--c:#A3253A"><span></span><b>Вишня в глазури</b><small>CL 01</small></button>
+        <button class="swatch" role="radio" aria-checked="false" data-name="Розовая глазурь" style="--c:#EBC3C8"><span></span><b>Розовая глазурь</b><small>CL 02</small></button>
+        <button class="swatch" role="radio" aria-checked="false" data-name="Шалфей" style="--c:#A3B18A"><span></span><b>Шалфей</b><small>CL 03</small></button>
+        <button class="swatch" role="radio" aria-checked="false" data-name="Оливковое масло" style="--c:#C9C97E"><span></span><b>Оливковое масло</b><small>CL 04</small></button>
+        <button class="swatch" role="radio" aria-checked="false" data-name="Инжир" style="--c:#6E2B3A"><span></span><b>Инжир</b><small>CL 05</small></button>
+        <button class="swatch" role="radio" aria-checked="false" data-name="Молочный" style="--c:#F1E6DA"><span></span><b>Молочный</b><small>CL 06</small></button>
+        <button class="swatch" role="radio" aria-checked="false" data-name="Бутылочный" style="--c:#2E3F32"><span></span><b>Бутылочный</b><small>CL 07</small></button>
+        <button class="swatch" role="radio" aria-checked="false" data-name="Хром" style="--c:linear-gradient(135deg,#8d8f93,#f4f4f2 45%,#9a9ca0 60%,#e9e9e6)"><span></span><b>Хром</b><small>CL 08</small></button>
+      </div>
+      <p class="panel__label">Детали</p>
+      <div class="decor">
+        <button class="chip" data-deco="french" aria-pressed="false">Френч</button>
+        <button class="chip" data-deco="dots" aria-pressed="false">Точки</button>
+        <button class="chip" data-deco="gems" aria-pressed="false">Стразы</button>
+        <button class="chip" data-deco="cherry" aria-pressed="false">Вишенка</button>
+      </div>
+      <div class="summary">
+        <p class="summary__title">Ваш дизайн</p>
+        <p class="summary__text" aria-live="polite">Вишня в глазури на всех ногтях</p>
+        <a href="#book" class="btn" data-take>Записаться с этим дизайном</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section works" id="works">
+  <div class="section__head">
+    <h2 data-split>Скетчбук работ</h2>
+    <p>Рядом с каждой работой — то, из чего она родилась. Листайте вбок.</p>
+  </div>
+  <div class="book">
+    <div class="book__rings" aria-hidden="true"></div>
+    <div class="book__track" data-stagger tabindex="0" aria-label="Работы, листаются вбок">
+      <article class="page" style="--i:0">
+        <img class="page__photo" src="assets/img/work-fig-matcha.webp" alt="Асимметричный маникюр винного и фисташкового цвета" width="900" height="1125" loading="lazy">
+        <div class="page__inspo"><figure><img src="assets/img/insp-figs.webp" alt="" width="400" height="400" loading="lazy"><figcaption>инжир</figcaption></figure><figure><img src="assets/img/insp-matcha.webp" alt="" width="400" height="400" loading="lazy"><figcaption>матча</figcaption></figure><figure><img src="assets/img/insp-corridor.webp" alt="" width="400" height="400" loading="lazy"><figcaption>коридор</figcaption></figure></div>
+        <h3>Инжир и матча</h3><p>Асимметрия, лунки, винный оттенок</p>
+      </article>
+      <article class="page" style="--i:1">
+        <img class="page__photo" src="assets/img/work-poppies.webp" alt="Нюдовый маникюр с акварельными маками" width="900" height="1125" loading="lazy">
+        <div class="page__inspo"><figure><img src="assets/img/insp-poppy.webp" alt="" width="400" height="400" loading="lazy"><figcaption>мак</figcaption></figure><figure><img src="assets/img/insp-peony.webp" alt="" width="400" height="400" loading="lazy"><figcaption>пион</figcaption></figure><figure><img src="assets/img/insp-watercolor.webp" alt="" width="400" height="400" loading="lazy"><figcaption>акварель</figcaption></figure></div>
+        <h3>Акварельные цветы</h3><p>Роспись тушью поверх нюда</p>
+      </article>
+      <article class="page" style="--i:2">
+        <img class="page__photo" src="assets/img/work-sage-chrome.webp" alt="Маникюр цвета шалфея с каплями хрома" width="900" height="1125" loading="lazy">
+        <div class="page__inspo"><figure><img src="assets/img/insp-chrome.webp" alt="" width="400" height="400" loading="lazy"><figcaption>хром</figcaption></figure><figure><img src="assets/img/insp-sage.webp" alt="" width="400" height="400" loading="lazy"><figcaption>шалфей</figcaption></figure><figure><img src="assets/img/insp-olives.webp" alt="" width="400" height="400" loading="lazy"><figcaption>оливки</figcaption></figure></div>
+        <h3>Шалфей и хром</h3><p>Капли хрома, оливковая база</p>
+      </article>
+      <article class="page" style="--i:3">
+        <img class="page__photo" src="assets/img/work-cherry-french.webp" alt="Молочный френч с вишенками" width="900" height="1125" loading="lazy">
+        <div class="page__inspo"><figure><img src="assets/img/insp-cherries.webp" alt="" width="400" height="400" loading="lazy"><figcaption>вишни</figcaption></figure><figure><img src="assets/img/insp-milk.webp" alt="" width="400" height="400" loading="lazy"><figcaption>молоко</figcaption></figure><figure><img src="assets/img/insp-gingham.webp" alt="" width="400" height="400" loading="lazy"><figcaption>скатерть</figcaption></figure></div>
+        <h3>Вишнёвый френч</h3><p>Молочная база, вишенки на акцентах</p>
+      </article>
+      <article class="page" style="--i:4">
+        <img class="page__photo" src="assets/img/work-italian-dinner.webp" alt="Бутылочно-зелёный маникюр с винным акцентом" width="900" height="1125" loading="lazy">
+        <div class="page__inspo"><figure><img src="assets/img/insp-wine.webp" alt="" width="400" height="400" loading="lazy"><figcaption>вино</figcaption></figure><figure><img src="assets/img/insp-olive-oil.webp" alt="" width="400" height="400" loading="lazy"><figcaption>масло</figcaption></figure></div>
+        <h3>Итальянский ужин</h3><p>Глубокий зелёный и капля вина</p>
+      </article>
+    </div>
+    <div class="book__nav">
+      <button class="round" data-dir="-1" aria-label="Предыдущая работа"><svg viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7"/></svg></button>
+      <button class="round" data-dir="1" aria-label="Следующая работа"><svg viewBox="0 0 24 24"><path d="M9 5l7 7-7 7"/></svg></button>
+    </div>
+  </div>
+</section>
+
+<section class="section masters" id="masters">
+  <div class="section__head">
+    <h2 data-split>Мастера</h2>
+    <p>У каждого свой почерк — выбирайте по работам.</p>
+  </div>
+  <div class="masters__row" data-stagger>
+    <article class="master" style="--i:0;--bg:#EBC3C8"><div class="master__arch"><img src="assets/img/master-alina.webp" alt="Мастер Алина с кистью для росписи" width="720" height="960" loading="lazy"></div><h3>Алина</h3><p>Роспись и цветы</p></article>
+    <article class="master" style="--i:1;--bg:#A3B18A"><div class="master__arch"><img src="assets/img/master-vera.webp" alt="Мастер Вера" width="720" height="960" loading="lazy"></div><h3>Вера</h3><p>Хром, объём, наращивание</p></article>
+    <article class="master" style="--i:2;--bg:#C9C97E"><div class="master__arch"><img src="assets/img/master-sonya.webp" alt="Мастер Соня" width="720" height="960" loading="lazy"></div><h3>Соня</h3><p>Педикюр и уход</p></article>
+  </div>
+</section>
+
+<section class="section game" id="game">
+  <div class="game__card">
+    <div class="game__text">
+      <h2 data-split>Сэкономить или новые ногти?</h2>
+      <p>Сыграйте с нами в камень-ножницы-бумагу. Выиграете — получите скидку на первый визит.</p>
+    </div>
+    <div class="game__board">
+      <div class="game__hands" aria-live="polite">
+        <div class="hand you"><span class="hand__label">Вы</span><span class="hand__sign" data-you>?</span></div>
+        <span class="vs">vs</span>
+        <div class="hand bot"><span class="hand__label">Cherry Lady</span><span class="hand__sign" data-bot>?</span></div>
+      </div>
+      <div class="game__moves">
+        <button class="chip" data-move="rock">Камень</button>
+        <button class="chip" data-move="scissors">Ножницы</button>
+        <button class="chip" data-move="paper">Бумага</button>
+      </div>
+      <p class="game__result" aria-live="polite">Сделайте ход</p>
+    </div>
+  </div>
+</section>
+
+<section class="section book-form" id="book">
+  <div class="book-form__grid">
+    <div>
+      <h2 data-split>Запись</h2>
+      <p class="muted">Оставьте телефон — администратор перезвонит и подберёт время.</p>
+      <ul class="contacts">
+        <li><span>Телефон</span><a href="tel:+79000000000">+7 900 000-00-00</a></li>
+        <li><span>Адрес</span>Калининград, Ленинский проспект, 1</li>
+        <li><span>Часы</span>Ежедневно 10:00–21:00</li>
+        <li><span>Почта</span><a href="mailto:hello@cherrylady.ru">hello@cherrylady.ru</a></li>
+      </ul>
+    </div>
+    <form class="form" novalidate>
+      <label>Имя<input name="name" autocomplete="given-name" required placeholder="Анна"></label>
+      <label>Телефон<input name="phone" type="tel" autocomplete="tel" required placeholder="+7 900 000-00-00"></label>
+      <label>Услуга
+        <select name="service">
+          <option>Маникюр с покрытием</option><option>Педикюр</option><option>Дизайн</option><option>Наращивание</option><option>Снятие и уход</option><option>Вдвоём</option>
+        </select>
+      </label>
+      <label>Комментарий для мастера<textarea name="comment" rows="3" placeholder="Например: как на фото, но покороче"></textarea></label>
+      <div class="upload">
+        <p class="upload__label">Фото желаемого дизайна <span>до 3 фото</span></p>
+        <label class="upload__drop" for="photos">
+          <input id="photos" name="photos" type="file" accept="image/*" multiple>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 16V4M7 9l5-5 5 5M4 16v3a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-3"/></svg>
+          <span><b>Загрузите фото</b> или перетащите сюда. Мастер посмотрит его до вашего прихода.</span>
+        </label>
+        <ul class="upload__list" aria-live="polite"></ul>
+      </div>
+      <label class="check"><input type="checkbox" name="agree" required><span>Даю согласие на обработку персональных данных по <button type="button" class="link" data-policy>политике конфиденциальности</button></span></label>
+      <button class="btn btn--wide" type="submit">Записаться</button>
+      <p class="form__msg" aria-live="polite"></p>
+    </form>
+  </div>
+</section>
+
+</main>
+
+<footer class="foot">
+  <p class="foot__logo">Cherry Lady</p>
+  <p>Концепт сайта для портфолио. Студия, мастера, цены и контакты вымышлены.</p>
+</footer>
+
+<dialog class="policy">
+  <h3>Политика конфиденциальности</h3>
+  <p>Это демо-версия сайта. На реальном сайте здесь будет текст политики: какие данные собираются, зачем, где хранятся и как их удалить.</p>
+  <form method="dialog"><button class="btn">Понятно</button></form>
+</dialog>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="cherry" viewBox="0 0 32 32"><path d="M16 4c2.4 3.6 3.2 6.6 2.5 10.4M16 4c-1.8 3-4.4 5.6-5.8 9.6" stroke="#4F7032" stroke-width="1.6" fill="none"/><circle cx="10.5" cy="20" r="6" fill="#A3253A"/><circle cx="21" cy="19" r="5.5" fill="#8E1B2C"/></symbol>
+</svg>
+
+<script src="assets/js/main.js" defer></script>
+</body>
+</html>
